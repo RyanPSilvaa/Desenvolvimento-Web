@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Aula 2 - Centro de Tóquio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('img/Prédios.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        h1, h2 {
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px 20px;
+            border: 1px solid white;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            max-width: 90%;
+        }
+        h1:hover, h2:hover {
+            transform: scale(1.05);
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(45deg, #3c0058, #6009eb);
+        }
+        p {
+            text-align: justify;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 90%;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            line-height: 1.6;
+        }
+        p:hover {
+            transform: scale(1.02);
+            background: linear-gradient(45deg, #3c0058, #110720);
+        }
+        img {
+            max-width: 45%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+        }
+        ul {
+            list-style: upper-roman;
+            padding: 0;
+            margin: 20px auto;
+            max-width: 90%;
+        }
+        li:hover {
+         background-color: #6009eb;
+        }
+        ul li {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: black;
+            color: white;
+        }
+        tr:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        th:hover{
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Centro de Tóquio</h1>
+    <img src="img/toquio-1140x675.png" alt="Imagem do Centro de Tóquio">
+    <p>
+        A imagem retrata uma movimentada rua noturna em um distrito urbano do Japão, 
+        iluminada por uma profusão de letreiros neon coloridos com caracteres japoneses. 
+        O ambiente é vibrante e lotado, com pessoas caminhando, refletindo o dinamismo de 
+        áreas populares como Shinjuku ou Shibuya, conhecidas por entretenimento e vida noturna.
+    </p>
+    <ul>
+        <li>Placas Neon</li>
+        <li>Pessoas</li>
+        <li>Lojas</li>
+    </ul>
+    <h2>Tabela de Informações</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Cidade</th>
+                <th>País</th>
+                <th>Extensão</th>
+                <th>Construída</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shinjuku</td>
+                <td>Japão</td>
+                <td>2.194 km²</td>
+                <td>1603</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
