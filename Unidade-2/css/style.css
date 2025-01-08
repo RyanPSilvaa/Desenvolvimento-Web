@@ -1,0 +1,74 @@
+/* 4 - External CSS */
+h3{
+    color: green;
+    font-size: 60px;
+}
+p{
+    color: blueviolet
+}
+
+/* 6 - Classes */
+.paragrafo{
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+/* 7 - IDs */
+#titulo-exclusivo{
+    background-color: rgba(4, 8, 247, 0.945);
+    color: aquamarine;
+    padding: 10px;
+}
+
+/*8 - Multiplas Regras, ordem do CSS*/
+h2{
+   border-bottom: 2px solid red; 
+}
+.titulo{
+    border-bottom: 2px solid blue;
+}
+/*9 - Multiplas Regras, ordem do CSS*/
+#algum-titulo{
+    border-bottom: 2px solid green;
+}
+/*10 - Estilizado com nome da cor*/
+.nome-cor{
+    color: crimson;
+}
+/*11 - Estilizado com Hexadecimal*/
+.hex{
+    color: #55a399;
+}
+/*12 -  Estilizado com Hexadecimal*/
+.hex-mais{
+    color: #54e;
+}
+/*12 - Estilizado com RGB*/
+.rgb{
+    color: rgb(43, 255, 0);
+}
+
+/*12 - Estilizado com RGB*/
+.mix-rgb{
+    color: rgb(rgb(255, 1, 1), rgb(40, 173, 40), rgb(98, 98, 177));
+}
+/*13 - Estilizado com rgba*/
+.rgba{
+    color: rgba(200, 7, 214, 0.349);
+}
+
+/*14 - Estilizado com HSL*/
+.hsl{
+    color: hsl(254, 75%, 28%);
+}
+
+/*15 - Estilizado com background-color*/
+.background-color{
+    color: red;
+}
+
+/*16 - Estilizado com opacity*/
+.background-opacity{
+    color: crimson;
+}
