@@ -63,12 +63,49 @@ h2{
     color: hsl(254, 75%, 28%);
 }
 
-/*15 - Estilizado com background-color*/
+/*15 - Estilizado com background-color/bg*/
 .background-color{
-    color: red;
+    background-color: rgb(136, 255, 0);
+    color: rgb(0, 0, 0);
 }
 
-/*16 - Estilizado com opacity*/
-.background-opacity{
-    color: crimson;
+/*15 - Estilizado com bg*/
+.background-color{
+    background-color: rgba(255,0,0);
+    color: blue;
+}
+
+/*16 - Estilizado com bg-opacity*/
+.bg-opacity > p{
+    background-color: forestgreen;
+    color: pink;
+}
+
+.exercicio > p{
+    background-color: rgb(136, 255, 0);
+    color: rgb(255, 255, 255);
+    opacity: 40%;
+}
+
+.rgba-opacity > p{
+    background-color: rgba(20, 172, 9, 0.274);
+    color: 0.2;
+}
+.rgba-opacity > p{
+    background-color: rgba(20, 172, 9, 0.274);
+    color: 0.2;
+    background-image: url(../img/Prédios.jpeg);
+}
+
+.not-center-bg{
+    background-image: url(../img/toquio-1140x675.png);
+}
+
+.center-bg {
+    color: white;
+    background-image: url(../img/Prédios.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
