@@ -98,14 +98,77 @@ h2{
 }
 
 .not-center-bg{
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
     background-image: url(../img/toquio-1140x675.png);
 }
 
 .center-bg {
-    color: white;
-    background-image: url(../img/Prédios.jpeg);
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/toquio-1140x675.png);
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+}
+
+.not-center-bg:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.center-bg:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.largura-altura{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+}
+
+.largura-altura2{
+    height: 300px;
+    background-image: url(../img/Ville\ Cyberpunk.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sem-padding{
+    background-color: red;
+    color: white;
+}
+.com-padding{
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+
+.shortcut{
+    padding: 10px 10px 10px 10px;
+    background-color: #ff4;
+}
+
+.shortcut-2{
+    padding: 10px 10px;
+    background-color: #ff4;
+}
+
+.border-box{
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 600px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.border-box2{
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 600px;
+    padding: 50px;
+    box-sizing: border-box;
 }
