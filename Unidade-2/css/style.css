@@ -1,4 +1,4 @@
-/* 4 - External CSS */
+/* 4 - External CSS 
 h3{
     color: green;
     font-size: 60px;
@@ -21,10 +21,10 @@ p{
     padding: 10px;
 }
 
-/*8 - Multiplas Regras, ordem do CSS*/
+/*8 - Multiplas Regras, ordem do CSS
 h2{
    border-bottom: 2px solid red; 
-}
+}*/
 .titulo{
     border-bottom: 2px solid blue;
 }
@@ -308,4 +308,86 @@ h2{
     text-align: center;
     background-color: black;
     color: #ff4;
+}
+
+.align-right{
+    text-align: right;
+}
+.align-center{
+    text-align: center;
+    border: 1px solid red;
+}
+
+.text-decoration {
+    text-decoration: overline;
+}
+
+.text-decoration-risc{
+    text-decoration: line-through;
+}
+.text-decoration-3{
+    text-decoration: none;
+}
+
+.text-lower{
+    text-transform: uppercase;
+}
+
+.text-upper{
+    text-transform: lowercase;
+}
+.espaco{
+    text-align: center;
+    letter-spacing: 35px;
+}
+.serif{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sans-serif{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.monospace{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+p{
+    color: black;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+.fine .bold .bolder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fine{
+    font-size: 100px;
+    font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+    font-size: 100px;
+}
+.bolder{
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+.small{
+    font-size: 15px;
+}
+.big{
+    font-size: 78px;
 }
