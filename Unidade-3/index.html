@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidade-3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Unidade 3</h1>
+    <!--Form 001-->
+    <form action="register.js" method="get">
+        <h2>Formulário HTML</h2>
+        <div>
+            <label class="nome-label">Nome</label>
+            <input type="text">
+        </div>
+
+    <!--Form 002-->
+        <div>
+            <label for="age/idade">Idade</label>
+            <input type="text" name="age/idade" id="">
+        </div>
+        <input type="submit" name="send">
+
+    <!--Form 003-->
+        <div>
+            <label for="job">Seleciona sua profissão!</label>
+            <select name="job" id="job">
+                <option value="doJob">Formada no Job</option>
+                <option value="Pedreiro">Pedreiro com graduação</option>
+                <option value="Gari">Gari com diploma e doutorado</option>
+                <option value="GarotoPrograma">Garoto de Programa</option>
+                <option value="Engenheiro">Engenheiro motorista de Uber</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="contract">Leu o contrato, meu cria?</label>
+            <select name="contract" id="contract">
+            <option value="Sim">Sim</option>
+            <option value="Nao" selected>Não</option>
+        </select>
+        </div>
+
+        <div>
+            <label for="items">Selecione os itens desejados, meu rei!</label>
+            <select name="items" id="items" multiple>
+                <option value="cerveja">Cerveja</option>
+                <option value="cafe">Café</option>
+                <option value="cerveja">Cerveja</option>
+                <option value="cafe">Café</option>
+                <option value="cerveja">Cerveja</option>
+            </select>
+        </div>
+        
+        <div>
+            <label for="comment">Escreva algo importante</label>
+            <textarea name="texto" id="texto">Escreve aí fih!</textarea>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Preencha o formulário</legend>
+                <label for="firstname">Nome:</label>
+                <input type="firstname" name="firstname">
+                <label for="lastname">Sobrenome:</label>
+                <input type="lastname" name="lastname">
+            </fieldset>
+        </div>
+
+        <div>
+            <label for="sabor">Escolha o sabor</label>
+            <input type="text" list="sabor" name="sabor">
+            <datalist id="sabor">
+                <option value="sabor 1">Sabor 1</option>
+                <option value="sabor 1">Sabor 1</option>
+                <option value="sabor 1">Sabor 1</option>
+                <option value="sabor 1">Sabor 1</option>
+            </datalist>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Preencha seus dados</legend>
+                <label for="e-mail">Digite seu e-mail</label>
+                <input type="text" name="E-mail" id="e-mail">
+                <label for="senha">Digite sua senha</label>
+                <input type="password" name="Password" id="password">
+            </fieldset>
+        </div>
+        <input type="reset">
+        <input type="submit" text="enviar">
+    </form>
+</body>
+</html>
