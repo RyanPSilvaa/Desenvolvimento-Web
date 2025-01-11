@@ -28,3 +28,28 @@ div input,
 div label{
     display: block;
 }
+.redefinir, 
+.enviar{
+    background: #007bff;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 250px;;
+}
+
+.redefinir:hover {
+    transform: scale(1.1);  
+    transition: transform 0.5s ease-in-out; 
+    cursor: pointer; 
+    color: black;  
+}
+    
+.enviar:hover {
+    transform: scale(1.1);  
+    transition: transform 0.5s ease-in-out; 
+    cursor: pointer; 
+    color: black;  
+}
+ 

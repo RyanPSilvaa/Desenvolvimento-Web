@@ -90,8 +90,28 @@
                 <input type="password" name="Password" id="password">
             </fieldset>
         </div>
-        <input type="reset">
-        <input type="submit" text="enviar">
+
+        <div>
+            <label for="disable">Marque no check box</label>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+
+        <div>
+            <label for="disable">Tente mudar o valor</label>
+            <input type="checkbox" name="checkbox" id="checkbox" disabled>
+        </div>
+
+        <div>
+            <label for="current-job">Digite sua profissão</label>
+            <input type="text" name="current-job" placeholder="no que você está trabalhando agora?">
+        </div>
+
+        <div>
+            <label for="current-job">Digite sua profissão</label>
+            <input type="text" name="current-job" placeholder="no que você está trabalhando agora?" required>
+        </div>
+        <input class="redefinir" type="reset">
+        <input class="enviar" type="submit" text="enviar">
     </form>
 </body>
 </html>
