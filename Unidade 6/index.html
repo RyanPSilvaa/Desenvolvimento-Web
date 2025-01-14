@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico - unidade-6</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-inner">
+            <h2>Blog</h2>
+            <ul id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <main id="posts-container">
+
+            <!--Artigo 1-->
+            <article class="post">
+                <img src="img/F1.jpeg" alt="Barco Navegando no Rio">
+                <h3 class="title"><a href="Algum título"></a></h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Porro reiciendis animi officiis facilis cumque aliquid quas eos! 
+                    Recusandae maxime laboriosam libero repudiandae et dolorum fugiat soluta quo! 
+                    Maxime, accusamus neque.
+                </p>
+                <p class="author">Por: Ryan do pixs</p>
+                <a href="#">Ler Mais</a>
+            </article>
+
+            <!-- Artigo 2-->
+            <article class="post">
+                <img src="img/F2.jpeg" alt="Cachoeira">
+                <h3 class="title"><a href="Algum título"></a></h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Porro reiciendis animi officiis facilis cumque aliquid quas eos! 
+                    Recusandae maxime laboriosam libero repudiandae et dolorum fugiat soluta quo! 
+                    Maxime, accusamus neque.
+                </p>
+                <p class="author">Por: Ryan do pixs</p>
+                <a href="#">Ler Mais</a>
+            </article>
+
+            <!-- Artigo 3-->
+            <article class="post">
+                <img src="img/F3.jpeg" alt="Balões">
+                <h3 class="title"><a href="Algum título"></a></h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Porro reiciendis animi officiis facilis cumque aliquid quas eos! 
+                    Recusandae maxime laboriosam libero repudiandae et dolorum fugiat soluta quo! 
+                    Maxime, accusamus neque.
+                </p>
+                <p class="author">Por: Ryan do pix</p>
+                <a href="#">Ler Mais</a>
+            </article>
+
+        </main>
+
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" placeholder="Pesquise no Blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+
+            <section id="categorias">
+                <h4>Categorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="Paisagens"></a>Paisagens</li>
+                        <li><a href="Aventura"></a>Aventura</li>
+                        <li><a href="Viagens Longas"></a>Viagens Longas</li>
+                        <li><a href="Cachoeira"></a>Cachoeira</li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="tags">
+                <h4>Tags</h4>
+                    <div id="tags-container">
+                        <a href="Viagens">Viagens</a>
+                        <a href="Barco">Viagens</a>
+                        <a href="Trilha">Viagens</a>
+                        <a href="Tirolesa">Viagens</a>
+                        <a href="Parapente">Viagens</a>
+                        <a href="Balão">Viagens</a>
+                    </div>
+            </section>
+        </aside>
+    </div>
+
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>Os melhores momentos na UEA</p>
+        <p>2025 ©Ryan do pixs</p>
+    </footer>
+</body>
+</html>
