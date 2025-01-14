@@ -57,3 +57,130 @@ body{
 .end{
     justify-content: end;
 }
+
+.align-center,
+.flex-end,
+.stretch{
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+.align-center .box,
+.flex-end .box,
+.stretch .box{
+    width: 50px;
+    border: 2px solid blue;
+}
+
+.align-center{
+    align-items: center;
+    justify-content: center
+}
+
+.flex-end{
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.stretch{
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.stretch .box{
+    height: auto;
+}
+
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gap .box{
+    border: 2px solid greenyellow;
+    width: 32%;
+}
+
+.ordem{
+    display: flex;
+}
+
+#um{
+    order: 1;
+}
+#dois{
+    order: 2;
+}
+#tres{
+    order: 3;
+}
+#quatro{
+    order: 4;
+}
+
+
+.grow{
+    display: flex;
+}
+
+.grow .box{
+    flex: 1;
+}
+.grow .box-big{
+    flex: 2;
+    background: greenyellow;
+}
+
+.basis{
+    display: flex;
+}
+
+.basis .box{
+    flex-basis: 40px;
+}
+
+.basis .big{
+    flex-basis: 1;
+}
+
+.shrink{
+    display: flex;
+}
+
+.shrink .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+
+.shrink .small{
+    flex-shrink: 2;
+}
+
+.shorthand{
+    display: flex;
+}
+
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;
+}
+
+.shorthand .different{
+    flex: 3 1 400px;
+}
+
+.auto-a{
+    display: flex;
+    height: 300px;
+    align-items: flex-end;
+    border:2px solid blue;
+}
+
+.auto-a .diferente{
+    align-self: center;
+}
